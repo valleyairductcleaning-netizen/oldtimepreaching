@@ -1,30 +1,9 @@
-# Old Time Preaching website
+# Old Time Preaching — Burgundy Journal Design
 
-A lightweight, static HTML website for Cloudflare Pages. The main review is at `book-reviews/the-art-of-divine-contentment/index.html`.
+Static HTML/CSS site for Cloudflare Pages. Unzip contents directly into your GitHub Desktop `oldtimepreaching` clone (the index.html file stays in repository root). Commit and Push origin.
 
-## Deploy with existing GitHub + Cloudflare Pages project
-
-1. In GitHub Desktop, clone the `oldtimepreaching` repository.
-2. Extract the ZIP from ChatGPT. Copy the *contents* of its `oldtimepreaching-site` folder into the local cloned repository root alongside README.md, replacing that README if prompted.
-3. In GitHub Desktop, commit and **Push origin**.
-4. Cloudflare Pages should deploy the updated `main` branch. If it doesn't, verify GitHub repository permissions and the Pages deployment logs.
-
-## Cloudflare Pages settings
-
-- Framework: None
-- Branch: main
-- Build command: blank
-- Build output directory: blank or repository root `/` (as supported by Pages configuration).
-- Root directory: repository root.
-
-The top-level `index.html` must remain in the repository root. Do not upload the containing `oldtimepreaching-site` directory as a nested folder.
-
-## Edit content
-
-- Main homepage: `index.html`
-- Book review: `book-reviews/the-art-of-divine-contentment/index.html`
-- Styling: `assets/style.css`
-- Mobile menu and local search: `assets/site.js`
-- SEO sitemap: `sitemap.xml`
-
-This build intentionally does not invent additional book reviews or articles. Section landing pages are ready for future content.
+- Your existing Thomas Watson review, all site sections, and GA4 tag G-5VMXHC2N2Q are retained.
+- The homepage has been redesigned to match the approved burgundy/cream mockup.
+- Images on the homepage are crops of the chosen concept artwork, not historical photography or an actual published book cover. Replace with licensed, authentic imagery later if desired.
+- The three homepage teasers currently link to existing categories, rather than pretending unpublished articles exist.
+- The sitemap.xml and robots.txt are retained.
