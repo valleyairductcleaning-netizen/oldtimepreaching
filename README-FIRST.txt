@@ -1,15 +1,17 @@
-OLD TIME PREACHING — HOMEPAGE DESIGN PREVIEW / ADD-ON SITE
+OLD TIME PREACHING — NEW HOMEPAGE WITH FILTERS AND SITE SEARCH
 
-This is a complete standalone PREVIEW of the approved new homepage + connected articles, sermon, project and book review navigation. Your Speechify MP3 is included under assets/audio.
+Open index.html in Chrome to preview the approved layout. The category filters and client-side search work without a server.
 
-IMPORTANT: The original website repository has NOT been supplied. This package is NOT a safe drop-in replacement for the LIVE website because some existing pages (doctrine, Christian history, preachers, full book reviews, and original homepage assets) are not included. Keep your current production website untouched until the original ZIP is merged with this redesign.
+FAVICON: The original live-site favicon file was not supplied. assets/favicon.svg and favicon.ico are matching open-book recreations, NOT the original favicon. Replace them with the original favicon when the full site source is available.
 
-Open index.html in Chrome to preview the new homepage. The article, sermon and business links work locally.
-The separate Book Reviews page links to the LIVE site's current book reviews; we have not copied existing review text. The sermon page has the user-supplied excerpt and audio; the full original sermon is linked to the Spurgeon Library.
-Funding and income figures remain preliminary and must be verified before publication. No payments are connected.
+This ZIP is a self-contained PREVIEW, not a full copy of the current live site. Do not deploy over the existing live website yet. Existing doctrine, history, preacher pages and original book reviews are not in these files. This package includes the new sermon/article/project pages and your Speechify MP3.
 
-GITHUB DESKTOP COMMIT SUMMARY:
-Build new Old Time Preaching homepage and connected navigation
+The search searches this preview's indexed pages, not the entire current website. With the original website source, add remaining existing content to the index.
 
-DESCRIPTION:
-Create cream-and-burgundy homepage based on approved design, plus Start Here, Articles and Book Reviews directory pages. Connect new Sermons and Christian Projects pages, Spurgeon audio, and featured article. Do not deploy over the existing site until original files are merged.
+COMMIT SUMMARY: Add filterable homepage and open-book favicon
+DESCRIPTION: Improve Latest Content with working category filters and site search; preserve the approved cream-and-burgundy homepage design, navigation, Spurgeon audio, article and Christian Project links. Add temporary matching favicon pending the original file.
+
+NEW ARTICLE: articles/should-wealthy-christians-give-more/index.html
+Added to home Latest Content, Articles directory and local site search. Original 1868 sermon linked at CCEL (not hosted locally).
+
+NEW: Audio for A Cheerful Giver Is Beloved of God added to /articles/should-wealthy-christians-give-more/. The 1890 Robbers of God audio remains on its own page.
