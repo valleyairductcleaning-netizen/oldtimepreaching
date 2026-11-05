@@ -1,27 +1,15 @@
-OLD TIME PREACHING — CONNECTED NEW PAGES — NOVEMBER 5, 2026
+OLD TIME PREACHING — HOMEPAGE DESIGN PREVIEW / ADD-ON SITE
 
-WHAT IS INCLUDED:
-  sermons/index.html                               Sermon and article listing
-  sermons/robbers-of-god/index.html                Sermon reading + working audio player
-  sermons/robbers-of-god-christian-generosity/index.html  Original article
-  projects/index.html                              Christian projects listing
-  projects/automotive-business/index.html          Business-support page
-  assets/audio/spurgeon-robbers-of-god-speechify.mp3 Narration supplied by site owner
-  HOMEPAGE-LINKS.html                              Links to insert into your existing homepage
+This is a complete standalone PREVIEW of the approved new homepage + connected articles, sermon, project and book review navigation. Your Speechify MP3 is included under assets/audio.
 
-All five pages link together and share an Old Time Preaching-inspired cream/burgundy style.
-The MP3 is linked from /sermons/robbers-of-god/ via a correct relative path.
-The sermon page currently includes the supplied passage, with a link to the complete original sermon.
+IMPORTANT: The original website repository has NOT been supplied. This package is NOT a safe drop-in replacement for the LIVE website because some existing pages (doctrine, Christian history, preachers, full book reviews, and original homepage assets) are not included. Keep your current production website untouched until the original ZIP is merged with this redesign.
 
-IMPORTANT: THIS IS AN ADD-ON, NOT YOUR WHOLE WEBSITE.
-Your original site's homepage and all its other source files have NOT been provided. Do NOT replace
-its root index.html or upload this ZIP as a full-site replacement. Copy the included sermons/,
-projects/, and assets/audio/ folders INTO YOUR EXISTING REPOSITORY and insert Projects into its
-navigation using HOMEPAGE-LINKS.html. Before uploading, confirm no existing files in those folders
-will be overwritten. To have me physically integrate with existing site HTML/CSS and navigation,
-upload the ORIGINAL website ZIP or repository files.
+Open index.html in Chrome to preview the new homepage. The article, sermon and business links work locally.
+The separate Book Reviews page links to the LIVE site's current book reviews; we have not copied existing review text. The sermon page has the user-supplied excerpt and audio; the full original sermon is linked to the Spurgeon Library.
+Funding and income figures remain preliminary and must be verified before publication. No payments are connected.
 
-Funding figures are preliminary, not a confirmed project budget. No financial transaction
-or donation collection is connected. The project contact button goes to the site's About page
-until you provide a real contact destination. Audio publishing authorization is based on your
-confirmation that Speechify granted permission. The existing logo graphic is a recreation.
+GITHUB DESKTOP COMMIT SUMMARY:
+Build new Old Time Preaching homepage and connected navigation
+
+DESCRIPTION:
+Create cream-and-burgundy homepage based on approved design, plus Start Here, Articles and Book Reviews directory pages. Connect new Sermons and Christian Projects pages, Spurgeon audio, and featured article. Do not deploy over the existing site until original files are merged.
