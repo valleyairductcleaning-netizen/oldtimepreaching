@@ -1,0 +1,19 @@
+OldTimePreaching.com — FIXED EZEKIEL 23 UPDATE
+
+This ZIP is ROOT-READY. There is NO extra oldtimepreaching folder.
+
+1. In Windows File Explorer, open the folder that holds your website files.
+   You should see index.html, articles, assets, and sitemap.xml there.
+2. Open THIS ZIP and copy its CONTENTS into that same website folder.
+3. When Windows asks, choose REPLACE for articles/index.html and sitemap.xml.
+   (The existing homepage index.html IS NOT included in this ZIP.)
+4. Open GitHub Desktop. Check changes. Commit the changes.
+5. Click PUSH ORIGIN. Wait for Cloudflare Pages to deploy.
+6. Refresh https://oldtimepreaching.com/articles/ using Ctrl+Shift+R.
+
+The new Ezekiel article should be the FIRST card on /articles/.
+
+If no changes appear in GitHub Desktop after copying files, you probably copied the files into a different folder, not the website repository.
+
+This package contains only: the Articles listing index.html, new Ezekiel 23 article, 2 images, and sitemap.xml.
+It DOES NOT change your homepage or other existing articles.
