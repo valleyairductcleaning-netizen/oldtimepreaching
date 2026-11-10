@@ -1,0 +1,33 @@
+OLD TIME PREACHING — EZEKIEL 23 SEO URL + COMPLETE SITEMAP UPDATE
+
+This archive is a PATCH: its folders start at the actual website root.
+It does NOT include the rest of your website and must be copied INTO the
+existing oldtimepreaching folder (the folder containing your homepage index.html).
+
+What it changes:
+  articles/index.html — updates the Ezekiel article card and link
+  articles/ezekiel-23-20-meaning/index.html — updated article and SEO title/URL
+  assets/images/article-thumbnails/ezekiel-23-explained.webp — card image
+  assets/images/ezekiel-23/ezekiel-23-feature.webp — article image
+  sitemap.xml — FULL 20-URL sitemap, with the NEW URL
+  _redirects — permanent 301 from the previous Ezekiel article path
+
+No other website pages or styling were changed. The older Gomer article URL
+(the-whore-meaning-in-the-bible-is-ezekiel-23-20/) is NOT redirected.
+
+TO INSTALL
+1. Extract ZIP.
+2. Copy all extracted files/folders to the ROOT of your GitHub site
+   (the folder that has the homepage index.html).
+3. Choose Replace when Windows asks about articles/index.html, sitemap.xml,
+   and the image files.
+4. If your repository contains the OLD directory
+   articles/why-would-a-holy-god-use-such-filthy-language-ezekiel-23/
+   you may remove it to avoid duplicate page files. The _redirects file will
+   send visitors from that old article URL to the new one.
+5. Commit, Push origin, and let Cloudflare Pages deploy.
+6. Verify https://oldtimepreaching.com/articles/ezekiel-23-20-meaning/
+   and https://oldtimepreaching.com/sitemap.xml.
+7. Resubmit sitemap.xml in Search Console after deployment.
+
+NOTE: Downloading this ZIP does NOT automatically publish any changes.
