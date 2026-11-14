@@ -1,0 +1,57 @@
+{
+  "photographs": [
+    {
+      "id": "areopagus-photo",
+      "title": "The Areopagus hill today",
+      "image": "assets/images/acts17/areopagus.webp",
+      "imageAlt": "The rocky Areopagus hill in Athens, photographed in 2007.",
+      "photoDate": "25 April 2007",
+      "description": "Location: Athens, Greece. A modern photograph of the rocky hill traditionally associated with Paul's Areopagus address. Acts can refer to the council as well as the hill; this photograph does not establish the precise venue or the spot where Paul stood.",
+      "attribution": "O.Mustafin, via Wikimedia Commons",
+      "license": "CC0 1.0 — public domain dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Areopagus_hill.jpg",
+      "transformation": "Converted from JPEG to WebP; no content alterations.",
+      "references": [
+        "Acts 17:19–22"
+      ]
+    },
+    {
+      "id": "agora-photo",
+      "title": "The Ancient Agora from the Areopagus",
+      "image": "assets/images/acts17/agora.webp",
+      "imageAlt": "Panoramic view of the Ancient Agora in Athens with the Temple of Hephaestus and reconstructed Stoa of Attalos.",
+      "photoDate": "6 February 2019",
+      "description": "Location: Ancient Agora archaeological site, Athens. The excavated civic center helps explain the marketplace in Acts 17:17. This modern view includes remains from different periods and the Stoa of Attalos reconstructed in 1953–1956; it is not a reconstruction of the city in Paul's day. ASCSA's excavation overview documents the site's civic role and modern restoration.",
+      "attribution": "George E. Koronaios, via Wikimedia Commons",
+      "license": "CC0 1.0 — public domain dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_the_archaeological_site_of_the_Ancient_Agora_from_the_Areopagus.jpg",
+      "transformation": "Resized to 1400 × 933 pixels and converted to WebP; no content alterations.",
+      "references": [
+        "Acts 17:17"
+      ]
+    },
+    {
+      "id": "attic-lekythos-photo",
+      "title": "An Attic oil flask depicting Hermes and Athena",
+      "image": "assets/images/acts17/lekythos.webp",
+      "imageAlt": "Terracotta lekythos with a black-figure battle scene including Hermes and Athena on a white ground, Met object 07.286.68.",
+      "photoDate": "Photograph date not supplied in the museum record",
+      "description": "Object: terracotta lekythos (oil flask), Greek, Attic, first quarter of the fifth century BC; attributed to the Athena Painter. The Metropolitan Museum of Art, New York, accession 07.286.68, Rogers Fund, 1907. The museum identifies the scene as the battle of gods and giants, including Hermes and Athena, and relates this vessel type to Athenian funerary rites. This much earlier object illustrates religious imagery, not a first-century find, an object Paul saw, or the altar in Acts 17:23.",
+      "attribution": "The Metropolitan Museum of Art, Rogers Fund, 1907; individual photographer not specified",
+      "license": "CC0 1.0 — The Met Open Access",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/247948",
+      "transformation": "Converted from the museum's JPEG to WebP; no content alterations.",
+      "references": [
+        "Acts 17:16",
+        "Acts 17:23–25"
+      ]
+    }
+  ],
+  "metOpenAccessPolicy": "https://www.metmuseum.org/policies/image-resources",
+  "metApiRecord": "https://collectionapi.metmuseum.org/public/collection/v1/objects/247948",
+  "metApiIsPublicDomain": true,
+  "mapPolicy": "https://operations.osmfoundation.org/policies/tiles/"
+}
