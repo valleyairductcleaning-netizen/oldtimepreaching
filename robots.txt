@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://oldtimepreaching.com/sitemap.xml
-
-Sitemap: https://oldtimepreaching.com/bible/sitemap.xml
