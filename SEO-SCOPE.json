@@ -1,0 +1,15 @@
+{
+  "design": "Option 3 Historical Magazine",
+  "route_scope": [
+    "/articles/christians-in-pompeii-before-ad-79/",
+    "/articles/i-survived-the-titanic/",
+    "/articles/lest-we-forget-meaning/",
+    "/articles/trusting-god-in-hard-times/",
+    "/articles/should-wealthy-christians-give-more/",
+    "/the-whore-meaning-in-the-bible-is-ezekiel-23-20/",
+    "/sermons/robbers-of-god/",
+    "/sermons/robbers-of-god-christian-generosity/"
+  ],
+  "seo": "Keeps each original title, meta description, canonical URL and existing schema; ensures sitemap includes Pompeii; improves internal links; does not claim off-page SEO backlinks.",
+  "notes": "Original post content stays in its existing files. The Cloudflare Pages _worker.js adds shared layout to these routes and serves other routes unmodified."
+}

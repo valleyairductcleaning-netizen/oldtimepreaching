@@ -1,0 +1,17 @@
+OLD TIME PREACHING — DESIGN 3 ARTICLE UPDATE
+
+Copy contents of this ZIP into the EXISTING website repository root (merge/replace), then push through GitHub Desktop.
+Do NOT upload this ZIP alone as a complete standalone Cloudflare Pages site: it is an add-on to the existing website.
+
+Includes:
+- Articles index with Pompeii thumbnail/card
+- Pompeii article and approved image
+- Updated sitemap.xml
+- Shared design #3 for eight active article/sermon routes via Cloudflare Pages _worker.js
+- Existing site thumbnails and content are left unchanged and reused
+- Consistent article banners (max 760px), typography, Bible quotes, and related reading
+
+Server access limitation: Github API write permission denied. No changes have been published.
+On-page SEO: original metadata preserved; internal links and sitemap improved. Off-page SEO (obtaining backlinks) cannot be accomplished by copying website files.
+
+Cloudflare Pages Advanced Mode _worker.js requires env.ASSETS. Avoid installing if your existing site already uses a _worker.js or Pages Functions without merging the workers.
