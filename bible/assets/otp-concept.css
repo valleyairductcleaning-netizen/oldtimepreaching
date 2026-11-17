@@ -37,3 +37,9 @@ body {background:var(--otp-cream)!important;color:var(--otp-ink)}
 .site-footer {background:#efe2d2!important;border-top:3px solid #dfc8b1!important}
 @media(max-width:980px){.otp-verse-layout{grid-template-columns:1fr}.otp-study-rail{position:static;display:block;margin:15px 0 0}.otp-study-rail .otp-rail-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 10px}.otp-chapter-content .reading-paper{margin-top:18px}}
 @media(max-width:600px){.page-wrap{width:calc(100% - 28px)!important}.masthead-inner{padding:18px 16px!important}.header-note{display:none}.otp-global-nav{gap:2px 5px}.otp-global-nav a{font-size:.76rem;padding:7px}.otp-study-rail .otp-rail-links{grid-template-columns:1fr}.otp-chapter-content .reading-paper{padding:25px 18px!important}.otp-chapter-content .acts17-study{padding:15px}.otp-chapter-content .acts17-study__map{min-height:300px}}
+
+
+/* Official logo beside the original Bible chapter masthead. */
+.masthead .brand-link{display:inline-flex!important;align-items:center;gap:16px;max-width:100%;vertical-align:middle}
+.masthead .brand-link::before{content:"";display:block;flex:0 0 72px;width:72px;height:72px;background:url('/assets/oldtimepreaching-official-logo.webp') center/contain no-repeat;border-radius:5px}
+@media(max-width:650px){.masthead .brand-link{gap:8px}.masthead .brand-link::before{flex-basis:48px;width:48px;height:48px}}

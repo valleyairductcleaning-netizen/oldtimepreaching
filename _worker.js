@@ -14,14 +14,14 @@ const PATHS = new Set([
 ]);
 class HeadExtras {
   element(el) {
-    el.append('<link rel="icon" type="image/svg+xml" href="/bible/favicon.svg">', { html:true });
+    el.append('<link rel="icon" type="image/svg+xml" href="/assets/otp-official-logo-v3.png">', { html:true });
     el.append('<link rel="stylesheet" href="/assets/otp-article-unified.css?v=1">', { html:true });
     el.append('<script defer src="/assets/otp-article-unified.js?v=1"></script>', { html:true });
   }
 }
 class FaviconLink {
   element(el) {
-    el.setAttribute('href', '/bible/favicon.svg');
+    el.setAttribute('href', '/assets/otp-official-logo-v3.png');
   }
 }
 class BodyClass {
