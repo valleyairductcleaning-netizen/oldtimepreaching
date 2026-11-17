@@ -3,7 +3,6 @@
  * No existing original pages, Bible URLs, or redirects are modified.
  */
 const PATHS = new Set([
-  '/articles/christians-in-pompeii-before-ad-79/',
   '/articles/i-survived-the-titanic/',
   '/articles/lest-we-forget-meaning/',
   '/articles/trusting-god-in-hard-times/',

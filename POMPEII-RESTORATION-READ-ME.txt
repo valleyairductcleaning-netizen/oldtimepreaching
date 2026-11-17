@@ -1,0 +1,4 @@
+POMPEII ORIGINAL WORDING RESTORED
+The article body is generated from the user-supplied original Pasted text (20261117-121926).txt. The text, Bible passages, headings, sources and final historical note are preserved; three pre-existing archaeology photographs are interleaved separately as figures.
+The approved Pompeii banner remains the lead image, sized to Option 3. The Cloudflare worker was updated to exclude the Pompeii path, because that article now has its own finished Option 3 styling and must not be transformed twice. Other ZIP contents are unchanged.
+Copy the ZIP contents into the root of your existing website folder, merging and replacing when asked, then commit and push with GitHub Desktop. This is an update patch, NOT a full website export.
