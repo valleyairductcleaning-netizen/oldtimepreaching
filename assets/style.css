@@ -53,7 +53,31 @@ h1,h2,h3{font-family:Georgia,'Times New Roman',serif!important;color:var(--wine)
 }
 
 /* Dark panels must override the global burgundy !important heading color. */
-.mission-hero h1,.scripture h2{color:#fff8ec!important}
+.scripture h2{color:#fff8ec!important}
 /* This project hero is cream, so its outlined link cannot use white text. */
 .hero .btn-outline{color:#650922;border-color:#650922;background:#fff7ec}
 .hero .btn-outline:hover{color:#650922;background:#f5e8d6}
+
+/* Mission banner: warm editorial image, calmer headline scale, and clear hierarchy. */
+.mission-hero{
+ position:relative;isolation:isolate;overflow:hidden;
+ background:linear-gradient(90deg,#fbf4e9 0%,rgba(251,244,233,.98) 48%,rgba(251,244,233,.84) 72%,rgba(251,244,233,.67) 100%),url("/assets/images/bible.webp") right center/cover no-repeat;
+ border-top:1px solid #e2d0b8;border-bottom:1px solid #cfb7a0;
+ color:#32141a;padding:48px 0 52px;text-align:left;
+}
+.mission-hero .wrap{position:relative;z-index:1}
+.mission-hero .kicker{display:flex;align-items:center;gap:13px;color:#805537}
+.mission-hero .kicker::after{content:"";display:block;width:48px;border-top:2px solid #bd985e}
+.mission-hero h1{
+ max-width:1000px;margin:17px 0 14px;
+ color:#650922!important;
+ font:700 clamp(2.3rem,4vw,3.7rem)/1.1 Georgia,"Times New Roman",serif;
+ letter-spacing:-.025em;text-shadow:none;
+}
+.mission-hero p{max-width:700px;margin:0;color:#4e352f;font:italic clamp(1.05rem,1.6vw,1.3rem)/1.5 Georgia,serif}
+@media(max-width:800px){
+ .mission-hero{padding:34px 0 38px;background:linear-gradient(135deg,#fbf4e9,#f3e5d4);text-align:left}
+ .mission-hero .wrap{padding-left:17px;border-left:3px solid #bd985e}
+ .mission-hero h1{font-size:clamp(2.1rem,7.5vw,3rem);line-height:1.08;margin:14px 0}
+ .mission-hero p{font-size:1.08rem}
+}
