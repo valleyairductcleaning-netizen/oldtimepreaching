@@ -1,0 +1,190 @@
+/* One sitewide masthead and menu, matching the existing homepage.
+ * Namespaced so Bible, article, review and legacy page styles cannot restyle it.
+ */
+.otp-site-chrome {
+  all: initial;
+  display: block;
+  position: relative;
+  z-index: 20;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #2b1715;
+  background: #fff6e7;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: normal;
+  text-align: left;
+  isolation: isolate;
+}
+.otp-site-chrome *,
+.otp-site-chrome *::before,
+.otp-site-chrome *::after {box-sizing: border-box}
+.otp-site-chrome :where(div,span,strong,small,em,b,img,a,nav,button) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  float: none;
+}
+.otp-site-chrome a {text-decoration: none}
+.otp-site-chrome a:focus-visible,
+.otp-site-chrome button:focus-visible {outline: 3px solid #da9d40; outline-offset: -3px}
+.otp-site-chrome .otp-chrome-masthead {
+  display: block;
+  background: linear-gradient(100deg,rgba(255,249,237,.95),rgba(253,238,210,.89)),url("/assets/valley.webp") center 57%/cover;
+  border-bottom: 3px solid #bd985e;
+}
+.otp-site-chrome .otp-chrome-masthead-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  width: 100%;
+  max-width: 1500px;
+  min-height: 130px;
+  margin: 0 auto;
+  padding: 7px 31px 10px;
+}
+.otp-site-chrome .otp-chrome-identity {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  min-width: 0;
+  color: #590c17;
+  background: transparent;
+}
+.otp-site-chrome .otp-chrome-logo {
+  display: block;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 76px;
+  max-width: none;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.otp-site-chrome .otp-chrome-wordmark {display: block; min-width: 0}
+.otp-site-chrome .otp-chrome-wordmark strong {
+  display: block;
+  font-size: clamp(2.1rem,4.6vw,4.65rem);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.04;
+  letter-spacing: -.03em;
+  white-space: nowrap;
+  color: #590c17;
+}
+.otp-site-chrome .otp-chrome-wordmark small {
+  display: block;
+  margin-top: 7px;
+  padding-top: 5px;
+  border-top: 1px solid #c7a77c;
+  font-size: clamp(.83rem,1.4vw,1.35rem);
+  line-height: normal;
+  color: #2c1a17;
+  white-space: nowrap;
+}
+.otp-site-chrome .otp-chrome-wordmark b {font-weight: normal; color: #7c4d34; padding: 0 5px}
+.otp-site-chrome .otp-chrome-verse {
+  display: block;
+  min-width: 255px;
+  padding-left: 24px;
+  border-left: 1px solid #d7be99;
+  color: #590c17;
+  text-align: center;
+}
+.otp-site-chrome .otp-chrome-verse em {display: block; font-size: clamp(1.4rem,2.15vw,2.25rem); font-style: italic; white-space: nowrap}
+.otp-site-chrome .otp-chrome-verse span {display: block; margin-top: 5px; font-size: 1.15rem; font-style: italic}
+.otp-site-chrome .otp-chrome-navigation {
+  display: block;
+  width: 100%;
+  background: linear-gradient(#710e1b,#540713);
+  border-bottom: 3px solid #bd985e;
+  box-shadow: 0 4px 15px #2f0a0a50;
+  color: #fff4e7;
+}
+.otp-site-chrome .otp-chrome-links {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2px;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+.otp-site-chrome .otp-chrome-links > a {
+  display: block;
+  position: relative;
+  padding: 17px 15px;
+  min-height: 56px;
+  width: auto;
+  max-width: none;
+  font: 700 clamp(.92rem,1.17vw,1.21rem)/normal Georgia,"Times New Roman",serif;
+  white-space: nowrap;
+  text-align: center;
+  color: #fff4e7;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transition: background .18s,box-shadow .18s;
+}
+.otp-site-chrome .otp-chrome-links > a > span {font-size: 1.3em; vertical-align: -.02em; margin-right: 5px}
+.otp-site-chrome .otp-chrome-links > a.is-current {background: #8a2a27; box-shadow: inset 0 -3px 0 #c89a52}
+.otp-site-chrome .otp-chrome-links > a:hover,
+.otp-site-chrome .otp-chrome-links > a:focus-visible {background: #97323a}
+.otp-site-chrome .otp-chrome-links > .otp-chrome-search {font-size: 1.3rem}
+.otp-site-chrome .otp-chrome-toggle {display: none}
+.otp-site-chrome .otp-chrome-skip {position: absolute; left: -9999px; top: 5px; z-index: 50; background: #fff; color: #590c17; padding: 12px; font-size: 1rem}
+.otp-site-chrome .otp-chrome-skip:focus {left: 5px}
+/* The Bible app replaces #root on navigation. The shared masthead lives outside
+ * that root; suppress only the app's legacy global header, never reading controls.
+ */
+body[data-otp-shared-header] #root header.masthead {display: none !important}
+@media (max-width:1150px) {
+  .otp-site-chrome .otp-chrome-verse {min-width: 195px}
+  .otp-site-chrome .otp-chrome-links {flex-wrap: wrap}
+}
+@media (max-width:760px) {
+  .otp-site-chrome .otp-chrome-masthead-inner {padding: 16px 15px; min-height: 88px; gap: 12px}
+  .otp-site-chrome .otp-chrome-identity {gap: 12px; width: 100%}
+  .otp-site-chrome .otp-chrome-wordmark strong {font-size: clamp(1.65rem,6vw,2.55rem); white-space: normal}
+  .otp-site-chrome .otp-chrome-wordmark small {font-size: .78rem; white-space: normal}
+  .otp-site-chrome .otp-chrome-verse {display: none}
+  .otp-site-chrome .otp-chrome-links {display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 0}
+  .otp-site-chrome .otp-chrome-links > a {min-height: 54px; padding: 15px 9px; font-size: .96rem; white-space: normal; border: 1px solid #ffffff19}
+  .otp-site-chrome .otp-chrome-links > a > span {display: none}
+  .otp-site-chrome .otp-chrome-links > .otp-chrome-search {font-size: 1.05rem}
+  .otp-site-chrome .otp-chrome-links > .otp-chrome-search > span {display: inline}
+  .otp-site-chrome[data-enhanced="true"] .otp-chrome-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 54px;
+    padding: 16px 18px;
+    border: 0;
+    border-top: 1px solid #9f624e;
+    background: #680e1b;
+    color: #fff7e9;
+    font: 700 1.12rem/normal Georgia,serif;
+    text-align: left;
+    cursor: pointer;
+    appearance: none;
+  }
+  .otp-site-chrome[data-enhanced="true"] .otp-chrome-links {display: none}
+  .otp-site-chrome[data-enhanced="true"][data-menu-open="true"] .otp-chrome-links {display: grid}
+}
+@media (max-width:620px) {
+  .otp-site-chrome .otp-chrome-logo {flex-basis: 54px; width: 54px; height: 54px}
+}
+@media (max-width:390px) {
+  .otp-site-chrome .otp-chrome-links {grid-template-columns: 1fr}
+}
+@media (prefers-reduced-motion:reduce) {
+  .otp-site-chrome .otp-chrome-links > a {transition: none}
+}

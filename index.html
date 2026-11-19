@@ -9,7 +9,9 @@
 <link rel="canonical" href="https://oldtimepreaching.com/">
 
 <link rel="stylesheet" href="/assets/homepage-classic.css">
-<style id="otp-official-logo-header">.site-header .identity img.lighthouse{display:none!important}.site-header .identity::before{content:"";display:block;flex:0 0 76px;width:76px;height:76px;background:url('/assets/oldtimepreaching-official-logo.webp') center/contain no-repeat;border-radius:6px}@media(max-width:620px){.site-header .identity::before{width:54px;height:54px;flex-basis:54px}}</style><meta property="og:title" content="Old Time Preaching | The Bible, Sound Doctrine, Sermons &amp; Christian Books">
+<style id="otp-official-logo-header">.site-header .identity img.lighthouse{display:none!important}.site-header .identity::before{content:"";display:block;flex:0 0 76px;width:76px;height:76px;background:url('/assets/oldtimepreaching-official-logo.webp') center/contain no-repeat;border-radius:6px}@media(max-width:620px){.site-header .identity::before{width:54px;height:54px;flex-basis:54px}}</style><link rel="stylesheet" href="/assets/site-chrome.css?v=1">
+<script defer src="/assets/site-chrome.js?v=1"></script>
+<meta property="og:title" content="Old Time Preaching | The Bible, Sound Doctrine, Sermons &amp; Christian Books">
 <meta property="og:description" content="Explore the ASV 1901 Bible, historic Christian sermons, Bible studies, Christian book reviews and practical ministry projects at Old Time Preaching.">
 <meta property="og:url" content="https://oldtimepreaching.com/">
 <meta property="og:site_name" content="Old Time Preaching">
@@ -18,25 +20,41 @@
 <meta name="twitter:title" content="Old Time Preaching | The Bible, Sound Doctrine, Sermons &amp; Christian Books">
 <meta name="twitter:description" content="Explore the ASV 1901 Bible, historic Christian sermons, Bible studies, Christian book reviews and practical ministry projects at Old Time Preaching.">
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="masthead"><div class="masthead-inner">
-    <a class="identity" href="/" aria-label="Old Time Preaching homepage"><img class="lighthouse" src="/assets/lighthouse-classic.svg" alt="" aria-hidden="true"><span><strong>Old Time Preaching</strong><small>The Bible <b>·</b> Sound Doctrine <b>·</b> Christian Books <b>·</b> Sermons</small></span></a>
-    <div class="mast-verse"><em>“Preach the word...”</em><span>— 2 Timothy 4:2</span></div>
-  </div></div>
-  <button class="mobile-menu-toggle" type="button" aria-controls="classic-site-links" aria-expanded="false">☰ &nbsp; Browse the Website</button>
-  <nav class="main-nav" aria-label="Main navigation"><span class="sr-only">Site navigation</span><div class="nav-inner" id="classic-site-links">
-    <a class="active" href="/" aria-current="page"><span aria-hidden="true">⌂</span> Home</a>
-    <a href="/bible/"><span aria-hidden="true">▣</span> Bible</a>
-    <a href="/sermons/"><span aria-hidden="true">♬</span> Sermons</a>
-    <a href="/articles/"><span aria-hidden="true">▤</span> Articles / Reviews</a>
-    <a href="/mission/"><span aria-hidden="true">●</span> About / Mission</a>
-    <a href="/projects/"><span aria-hidden="true">♥</span> Support the Work</a>
-    <a href="/about/"><span aria-hidden="true">✉</span> Contact / About</a>
-    <a class="search-nav" href="/bible/#search" aria-label="Search the Bible"><span aria-hidden="true">⌕</span></a>
-  </div></nav>
+<body data-otp-shared-header="true">
+<header class="otp-site-chrome" data-otp-chrome="homepage">
+  <a class="otp-chrome-skip" href="#main">Skip to content</a>
+  <div class="otp-chrome-masthead">
+    <div class="otp-chrome-masthead-inner">
+      <a class="otp-chrome-identity" href="/" aria-label="Old Time Preaching homepage">
+        <img class="otp-chrome-logo" src="/assets/oldtimepreaching-official-logo.webp" alt="" width="76" height="76" decoding="async">
+        <span class="otp-chrome-wordmark">
+          <strong>Old Time Preaching</strong>
+          <small>The Bible <b>·</b> Sound Doctrine <b>·</b> Christian Books <b>·</b> Sermons</small>
+        </span>
+      </a>
+      <div class="otp-chrome-verse"><em>“Preach the word...”</em><span>— 2 Timothy 4:2</span></div>
+    </div>
+  </div>
+  <nav class="otp-chrome-navigation" aria-label="Main navigation">
+    <button class="otp-chrome-toggle" type="button" aria-controls="otp-site-menu" aria-expanded="false">
+      <span class="otp-chrome-toggle-icon" aria-hidden="true">☰</span>
+      <span class="otp-chrome-toggle-text">Browse the Website</span>
+    </button>
+    <div class="otp-chrome-links" id="otp-site-menu">
+      <a data-section="home" href="/" class="is-current" aria-current="page"><span aria-hidden="true">⌂</span> Home</a>
+      <a data-section="bible" href="/bible/"><span aria-hidden="true">▣</span> Bible</a>
+      <a data-section="sermons" href="/sermons/"><span aria-hidden="true">♬</span> Sermons</a>
+      <a data-section="articles" href="/articles/"><span aria-hidden="true">▤</span> Articles / Reviews</a>
+      <a data-section="mission" href="/mission/"><span aria-hidden="true">●</span> About / Mission</a>
+      <a data-section="projects" href="/projects/"><span aria-hidden="true">♥</span> Support the Work</a>
+      <a data-section="about" href="/about/"><span aria-hidden="true">✉</span> Contact / About</a>
+      <a data-section="search" class="otp-chrome-search" href="/bible/#search" aria-label="Search the Bible"><span aria-hidden="true">⌕</span></a>
+    </div>
+  </nav>
 </header>
+
+
+
 <main id="main">
   <section class="hero" aria-labelledby="hero-heading"><div class="hero-cover"></div><div class="hero-inner">
     <div class="hero-copy"><span class="eyebrow">THE WORD OF GOD · HISTORIC CHRISTIAN TEACHING</span><h1 id="hero-heading">Sound Bible Teaching<br><em>for Today</em></h1><p>Expository preaching, Bible studies, book reviews, and resources to encourage faithful Christianity.</p>
@@ -66,5 +84,5 @@
   <section class="mission-cta" aria-labelledby="mission-heading"><div class="wrap mission-inner"><div><h2 id="mission-heading">Help Advance Biblical Work</h2><p>We're committed to making Scripture, historic preaching, and Christian resources available—and putting biblical convictions into practical action.</p></div><a class="button button-cream" href="/projects/"><span aria-hidden="true">♥</span> Explore Our Projects</a></div></section>
 </main>
 <footer class="footer"><div class="wrap"><span>© Old Time Preaching · Scripture, sound doctrine and Christian service</span><span><a href="/mission/">Our Mission</a> · <a href="/bible/">Bible Library</a> · <a href="/about/">About</a></span></div></footer>
-<script src="/assets/classic-navigation.js" defer></script>
+
 </body></html>
