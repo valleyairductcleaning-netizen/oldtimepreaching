@@ -81,3 +81,10 @@ h1,h2,h3{font-family:Georgia,'Times New Roman',serif!important;color:var(--wine)
  .mission-hero h1{font-size:clamp(2.1rem,7.5vw,3rem);line-height:1.08;margin:14px 0}
  .mission-hero p{font-size:1.08rem}
 }
+
+/* Book review thumbnails are scoped to the review directory only. */
+.book-review-directory .book-review-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.book-review-card>img{display:block;width:100%;height:190px;object-fit:contain;background:#eee4d5;border-bottom:1px solid #e2cfb8}
+.book-review-card-copy{display:block;padding:19px 21px 22px}
+.book-review-card-copy h2{color:#5c1226}
+.book-review-card-copy p{line-height:1.5}
