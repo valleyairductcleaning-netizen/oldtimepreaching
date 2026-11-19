@@ -35,3 +35,19 @@ h1,h2,h3{font-family:Georgia,'Times New Roman',serif!important;color:var(--wine)
 .site-head .book-logo{display:none!important}
 .site-head .head-inner{min-height:105px!important}
 @media(max-width:650px){.site-brand-logo{width:56px;height:56px}.site-head .head-inner{min-height:76px!important}}
+
+/* Mobile-friendly, consistent interior navigation and header */
+.site-head{box-shadow:0 2px 10px #36131316}
+.main-navigation{border-bottom:3px solid #bc9156}
+.nav a{min-height:52px;display:flex!important;align-items:center;justify-content:center}
+.directory a{transition:transform .15s,box-shadow .15s,border-color .15s;border-radius:7px}
+.directory a:hover{transform:translateY(-2px);border-color:#842337;box-shadow:0 8px 20px #4a15151c}
+@media(max-width:700px){
+ .site-head .head-inner{padding:15px 0!important}
+ .brand{font-size:clamp(1.35rem,5.8vw,2.1rem)!important}
+ .nav{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));padding:0!important;gap:0!important}
+ .nav a{font-size:1rem!important;min-height:52px;padding:13px 8px!important;text-align:center;border:1px solid #ffffff1b}
+ .index-main{padding:32px 0 50px}
+ .directory{grid-template-columns:1fr;gap:14px}
+ .directory a{padding:21px}
+}
